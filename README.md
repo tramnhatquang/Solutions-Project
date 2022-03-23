@@ -1,10 +1,9 @@
-# LEETCODE SOLUTIONS PROJECT
+#  PROBLEM-SOLVING SOLUTIONS PROJECT
 
 ## Motives and Goals: 
 1. As a recent Math grad, I want to land in more technical interviews and 
    get great offers, especially from the FAANG and big tech companies
-2. I plan to work on 3-5 LeetCode problems and list my solutions for each 
-   problem in this project
+2. I plan to work on 4 LeetCode, 3 HackerRank, and 3 CodeSignal problem per day 
 3. Doing this project not only keeps me disciplined adn committed but also 
    hone my data structure and algorithm skills. 
 <br />
