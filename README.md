@@ -1,4 +1,4 @@
-#<p style="text-align: center;">LeetCode Solutions Project</p>
+#<p style="text-align: center;"> LeetCode Solutions Project</p>
 
 ## Motives and Goals: 
 1. As a recent Math grad, I want to land in more technical interviews and 
