@@ -15,6 +15,8 @@ import sys
 
 def plusMinus(arr):
     # Write your code here
+    # Time complexity: O(n)
+    # Space complexity:
     length = len(arr)
     positive_count = 0
     zero_count = 0
