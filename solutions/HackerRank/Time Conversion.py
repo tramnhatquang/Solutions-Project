@@ -37,15 +37,3 @@ def timeConversion(s):
         return '00' + s[2:-2] if s[:2] == '12' else s[:-2]
 
     return str(12 + int(s[:2]) % 12) + s[2:-2]
-
-
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    s = input()
-
-    result = timeConversion(s)
-
-    fptr.write(result + '\n')
-
-    fptr.close()

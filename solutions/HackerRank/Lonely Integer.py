@@ -27,17 +27,3 @@ def lonelyinteger(a):
     for key in hash_table:
         if hash_table[key] == 1:
             return key
-
-
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    n = int(input().strip())
-
-    a = list(map(int, input().rstrip().split()))
-
-    result = lonelyinteger(a)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()

@@ -30,11 +30,3 @@ def plusMinus(arr):
     print('{:.6f}'.format((length - positive_count - zero_count) / length),
           end='\n')
     print('{:.6f}'.format(zero_count / length), end='\n')
-
-
-if __name__ == '__main__':
-    n = int(input().strip())
-
-    arr = list(map(int, input().rstrip().split()))
-
-    plusMinus(arr)

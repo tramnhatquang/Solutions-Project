@@ -32,8 +32,3 @@ def miniMaxSum(arr):
             num_max = num
     print(sum_arr - num_max, sum_arr - num_min)
 
-
-if __name__ == '__main__':
-    arr = list(map(int, input().rstrip().split()))
-
-    miniMaxSum(arr)
