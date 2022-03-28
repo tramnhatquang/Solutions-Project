@@ -1,8 +1,11 @@
-
-
 if __name__ == '__main__':
-    a = [1, 2, 3, 2, 1]
-    count = []
-    for num in a:
-        count.append(a.count(num))
-    print()
+    for i in range(1, 16):
+        if i % 3 == 0:
+            print('Fizz')
+        elif i % 3 == 0 and i % 5 == 0:
+            print('FizzBuzz1')
+            print('FizzBuzz2')
+        elif i % 5 == 0:
+            print('Buzz')
+        else:
+            print(i)
