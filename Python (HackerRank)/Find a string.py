@@ -17,4 +17,3 @@ def count_substring(string, sub_string):
     return count
 
 
-if __name__ == '__main__':
