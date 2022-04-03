@@ -1,6 +1,6 @@
 ## The code is copied and pasted from guangysong
-## His HackerRank post: https://www.hackerrank.com/challenges/30-testing/forum
-## His HackerRank account: https://www.hackerrank.com/guangysong
+## His 3 Months Interview Preparation post: https://www.hackerrank.com/challenges/30-testing/forum
+## His 3 Months Interview Preparation account: https://www.hackerrank.com/guangysong
 
 
 def minimum_index(seq):

@@ -18,7 +18,7 @@ if __name__ == '__main__':
         # print('\n'.join(sorted(lst_second_lowest)))
 
         # Second approach: Using list comprehension
-        # Credit: gkeswani92 (HackerRank account: https://www.hackerrank.com/gkeswani92)
+        # Credit: gkeswani92 (3 Months Interview Preparation account: https://www.hackerrank.com/gkeswani92)
         lst.append([name, score])
     second_lowest = sorted(list(set([score for name, score in lst])))[1]
     print('\n'.join([a for a, b in sorted(lst) if b == second_lowest]))

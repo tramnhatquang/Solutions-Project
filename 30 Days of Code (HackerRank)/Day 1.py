@@ -1,6 +1,6 @@
 i = 4
 d = 4.0
-s = 'HackerRank '
+s = '3 Months Interview Preparation '
 # Declare second integer, double, and String variables.
 # x = 0 # int
 # y = 0.0 #double

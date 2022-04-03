@@ -16,7 +16,7 @@ import sys
 #
 
 # The code is copied and pasted from https://www.hackerrank.com/challenges/30-bitwise-and/forum
-# The author is Jekus, his HackerRank account:https://www.hackerrank.com/Jekus
+# The author is Jekus, his 3 Months Interview Preparation account:https://www.hackerrank.com/Jekus
 def bitwiseAnd(N, K):
     # Write your code here
     if (K-1) | K <= N:
