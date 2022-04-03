@@ -6,7 +6,6 @@
 2. I plan to work on 5 LeetCode and 5 HackerRank problem per day 
 3. Doing this project not only keeps me disciplined adn committed but also 
    hone my data structure and algorithm skills. 
-<br />
 
 **I have not failed. I've just found 10,000 ways that won't work - Thomas Edison**
 
