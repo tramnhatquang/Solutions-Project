@@ -7,9 +7,6 @@
 3. Doing this project not only keeps me disciplined adn committed but also 
    hone my data structure and algorithm skills. 
 
-**I have not failed. I've just found 10,000 ways that won't work - Thomas Edison**
-<span style="color:blue">some **I have not failed. I've just found 10,000 ways that won't work - Thomas Edison** text</span>.
-
 ## Descriptions:
 1. The programming language I use for the whole project: **Python**
 2. I will comment the time and space complexity I use in each problem
@@ -19,4 +16,5 @@
 I hope everyone who comes across my project will have the dedication and 
 courage to work on things you want for. 
 Again, **DO NOT GIVE UP**
-
+<span style="color:blue"> **I have not failed. I've just found 10,000 ways that won't work - Thomas Edison** </span>.
+**If you want to give up, it is the time now. Otherwise, KEEP GOING**
