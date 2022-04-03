@@ -8,7 +8,7 @@
    hone my data structure and algorithm skills. 
 
 **I have not failed. I've just found 10,000 ways that won't work - Thomas Edison**
-
+<span style="color:blue">some **I have not failed. I've just found 10,000 ways that won't work - Thomas Edison** text</span>.
 
 ## Descriptions:
 1. The programming language I use for the whole project: **Python**
