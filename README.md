@@ -18,14 +18,57 @@
 **(Abbreviation) // : similar like above**
 <br/>
 
-|Count| Topic | Question | Link to problem | Solution  
+|**Count**| **Topic** | **Question** | **Link to problem** | **Solution**  
 |:---:|:---:|:---:|:---:|:---:|
 |1|Linked List| Reverse Linked List | [Link](https://www.hackerrank.com/challenges/reverse-a-linked-list/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank)/Reverse%20a%20linked%20list.py)
 |2|//| Compare two linked list  | [Link](https://www.hackerrank.com/challenges/compare-two-linked-lists?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank)/Compare%20two%20linked%20lists.py)
 |3|//|Get the Node Value|[Link](https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank)/Get%20Node%20Value.py)
 |4| //| Merge two Linked Lists|[Link](https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank)/Merge%20two%20sorted%20linked%20lists.py)
 |5|//|Delete duplicate-value from a sorted linked list| [Link](https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem?h_r=internal-search&isFullScreen=true&h_r=next-challenge&h_v=zen)| [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank)/Delete%20duplicate-value%20nodes%20from%20a%20sorted%20linked%20list.py)
-||||
+|6|//|12|[Link]()|[Link]()
+|7|//|12|[Link]()|[Link]()
+|8|//|12|[Link]()|[Link]()
+|9|//|12|[Link]()|[Link]()
+|10|//|12|[Link]()|[Link]()
+|11|//|12|[Link]()|[Link]()
+|12|//|12|[Link]()|[Link]()
+|13|//|12|[Link]()|[Link]()
+|14|//|12|[Link]()|[Link]()
+|15|//|12|[Link]()|[Link]()
+|16|//|12|[Link]()|[Link]()
+|17|//|12|[Link]()|[Link]()
+|18|//|12|[Link]()|[Link]()
+|19|//|12|[Link]()|[Link]()
+|20|//|12|[Link]()|[Link]()
+|21|//|12|[Link]()|[Link]()
+|22|//|12|[Link]()|[Link]()
+|23|//|12|[Link]()|[Link]()
+|24|//|12|[Link]()|[Link]()
+|25|//|12|[Link]()|[Link]()
+|26|//|12|[Link]()|[Link]()
+|27|//|12|[Link]()|[Link]()
+|28|//|12|[Link]()|[Link]()
+|29|//|12|[Link]()|[Link]()
+|30|//|12|[Link]()|[Link]()
+|31|//|12|[Link]()|[Link]()
+|32|//|12|[Link]()|[Link]()
+|33|//|12|[Link]()|[Link]()
+|34|//|12|[Link]()|[Link]()
+|35|//|12|[Link]()|[Link]()
+|36|//|12|[Link]()|[Link]()
+|37|//|12|[Link]()|[Link]()
+|38|//|12|[Link]()|[Link]()
+|39|//|12|[Link]()|[Link]()
+|40|//|12|[Link]()|[Link]()
+
+
+
+
+
+
+
+
+
 
 ## Bottom Line: 
 I hope everyone who comes across my project will have the dedication and 
