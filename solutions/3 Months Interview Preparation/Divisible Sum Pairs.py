@@ -31,7 +31,7 @@ def divisibleSumPairs(n, k, ar):
     # return count
 
     # More efficient solution: Written by snnikam01 in the discussion post
-    # His HackerRank profile: https://www.hackerrank.com/snnikam01?hr_r=1
+    # His 3 Months Interview Preparation profile: https://www.hackerrank.com/snnikam01?hr_r=1
     # Time: O(n)
     # Space: O(1)
     freq = [0] * k
