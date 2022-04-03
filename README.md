@@ -12,9 +12,19 @@
 2. I will comment the time and space complexity I use in each problem
 3. Starting date: **03/22/22**
 
+
+
+
+
+
 ## Bottom Line: 
 I hope everyone who comes across my project will have the dedication and 
 courage to work on things you want for. 
 Again, **DO NOT GIVE UP**
-<span style="color:blue"> **I have not failed. I've just found 10,000 ways that won't work - Thomas Edison** </span>.
-**If you want to give up, it is the time now. Otherwise, KEEP GOING**
+<p align="center">
+   I have not failed. I've just found 10,000 ways that won't work  --- Thomas Edison ---<br/>
+   If you want to give up, it is the time now. Otherwise, KEEP GOING, GOING! --- Danny Tram---
+</p>
+
+
+
