@@ -7,8 +7,9 @@
 3. Doing this project not only keeps me disciplined adn committed but also 
    hone my data structure and algorithm skills. 
 <br />
-As Thomas Edison said: <br />
-> I have not failed. I've just found 10,000 ways that won't work
+
+**I have not failed. I've just found 10,000 ways that won't work - Thomas Edison**
+
 
 ## Descriptions:
 1. The programming language I use for the whole project: **Python**
