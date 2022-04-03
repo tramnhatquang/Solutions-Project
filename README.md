@@ -1,14 +1,3 @@
-<p align="center">
-  <a href="https://leetcode.com/tramnhatquang">
-    <img height="100" src="https://leetcode.
-com/static/webpack_bundles/images/logo-dark.e99485d9b.svg">
-  <a href="https://www.hackerrank.com/tramnhatquang"> 
-   <img height="100" src="https://img.shields.io/badge/-Hackerrank-2EC866?  
-style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/tramnhatquang">
-   <a/>
-  <br/>
-</p>
-
 
 #PROBLEM-SOLVING SOLUTIONS PROJECT
 
