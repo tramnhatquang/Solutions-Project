@@ -1,5 +1,5 @@
 
-#PROBLEM-SOLVING SOLUTIONS PROJECT
+# PROBLEM-SOLVING SOLUTIONS PROJECT
 
 ## Motives and Goals: 
 1. As a recent Math grad, I want to land in more technical interviews and 
@@ -23,7 +23,9 @@
 |1|Linked List| Reverse Linked List | [Link](https://www.hackerrank.com/challenges/reverse-a-linked-list/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank)/Reverse%20a%20linked%20list.py)
 |2|//| Compare two linked list  | [Link](https://www.hackerrank.com/challenges/compare-two-linked-lists?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank)/Compare%20two%20linked%20lists.py)
 |3|//|Get the Node Value|[Link](https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank)/Get%20Node%20Value.py)
-|4| //| |
+|4| //| Merge two Linked Lists|[Link](https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank)/Merge%20two%20sorted%20linked%20lists.py)
+|5|//|Delete duplicate-value from a sorted linked list| [Link](https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem?h_r=internal-search&isFullScreen=true&h_r=next-challenge&h_v=zen)| [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank)/Delete%20duplicate-value%20nodes%20from%20a%20sorted%20linked%20list.py)
+||||
 
 ## Bottom Line: 
 I hope everyone who comes across my project will have the dedication and 
