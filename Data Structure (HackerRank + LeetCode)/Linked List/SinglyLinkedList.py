@@ -1,8 +1,9 @@
-
+## My self-implementation for Singly-Linked List
 class SinglyLinkedListNode:
     def __init__(self, node_data):
         self.data = node_data
         self.next = None
+
 
 class SinglyLinkedList:
     def __init__(self):
@@ -22,14 +23,14 @@ class SinglyLinkedList:
     def print_singly_linked_list(self) -> None:
         curr = self.head
         while curr:
-            print(curr.data,' -> ', end ='')
+            print(curr.data, ' -> ', end='')
             if not curr.next:
                 print('None')
             curr = curr.next
 
     def insert_at_head(self, val) -> None:
         new_node = SinglyLinkedListNode(val)
-        if not self.head: # if the head is None
+        if not self.head:  # if the head is None
             self.head = new_node
 
         # the head is not None
@@ -44,7 +45,7 @@ class SinglyLinkedList:
 
         # head is not None
         curr = self.head
-        while curr.next: # traversing to the current tail of the linked list
+        while curr.next:  # traversing to the current tail of the linked list
             curr = curr.next
 
         curr.next = new_node
