@@ -24,7 +24,3 @@ def diagonalDifference(arr):
         second_diagonal += arr[i][len(arr) - 1 - i]
     return abs(first_diagonal - second_diagonal)
 
-
-if __name__ == '__main__':
-    for i in range(10):
-        print(~i)
