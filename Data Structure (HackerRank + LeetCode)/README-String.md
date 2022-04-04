@@ -27,4 +27,23 @@
 |23|//|//|Sherlock and Anagrams|[Link](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem?isFullScreen=true)|[Link]()|
 |24|//|//|Common Child|[Link](https://www.hackerrank.com/challenges/common-child/problem?isFullScreen=true)|[Link]()|
 |25|//|//|Bear and Steady Gene|[Link](https://www.hackerrank.com/challenges/bear-and-steady-gene/problem?isFullScreen=true)|[Link]()|
-
+|26|//|Hard|Morgan and a String|[Link](https://www.hackerrank.com/challenges/morgan-and-a-string/problem?isFullScreen=true)|[Link]()
+|27|//|//|Count Strings|[Link](https://www.hackerrank.com/challenges/count-strings/problem?isFullScreen=true)|[Link]()
+|28|//|//|String Function Calculation|[Link](https://www.hackerrank.com/challenges/string-function-calculation/problem?isFullScreen=true)|[Link]()
+|29|//|//|Build a Palindrome|[Link](https://www.hackerrank.com/challenges/challenging-palindromes/problem?isFullScreen=true)|[Link]()
+|30|//|//|Build a String|[Link](https://www.hackerrank.com/challenges/build-a-string/problem?isFullScreen=true)|[Link]()
+|31|//|//|Gridland Provinces|[Link](https://www.hackerrank.com/challenges/gridland-provinces/problem?isFullScreen=true)|[Link]()
+|32|//|//|Cards Permutation|[Link](https://www.hackerrank.com/challenges/cards-permutation/problem?isFullScreen=true)|[Link]()
+|33|//|//|Ashton and String|[Link](https://www.hackerrank.com/challenges/ashton-and-string/problem?isFullScreen=true)|[Link]()
+|34|//|//|String Similarity|[Link](https://www.hackerrank.com/challenges/string-similarity/problem?isFullScreen=true)|[Link]()
+|35|//|//|Super Functional Strings|[Link](https://www.hackerrank.com/challenges/super-functional-strings/problem?isFullScreen=true)|[Link]()
+|36|//|//|Circular Palindromes|[Link](https://www.hackerrank.com/challenges/circular-palindromes/problem?isFullScreen=true)|[Link]()
+|37|//|//|Similar Strings|[Link](https://www.hackerrank.com/challenges/similar-strings/problem?isFullScreen=true)|[Link]()
+|38|//|//|Save Humanity|[Link](https://www.hackerrank.com/challenges/save-humanity/problem?isFullScreen=true)|[Link]()
+|39|//|//|Find Strings|[Link](https://www.hackerrank.com/challenges/find-strings/problem?isFullScreen=true)|[Link]()
+|40|//|//|Palindromic Border|[Link](https://www.hackerrank.com/challenges/palindromic-border/problem?isFullScreen=true)|[Link]()
+|41|//|//|Two Two|[Link](https://www.hackerrank.com/challenges/two-two/problem?isFullScreen=true)|[Link]()
+|42|//|//|Two Strings Game|[Link](https://www.hackerrank.com/challenges/two-strings-game/problem?isFullScreen=true)|[Link]()
+|43|//|//|Letter Islands|[Link](https://www.hackerrank.com/challenges/letter-islands/problem?isFullScreen=true)|[Link]()
+|44|//|//|Pseudo-Isomorphic Substrings|[Link](https://www.hackerrank.com/challenges/pseudo-isomorphic-substrings/problem?isFullScreen=true)|[Link]()
+|45|//|//|How Many Substrings|[Link](https://www.hackerrank.com/challenges/how-many-substrings/problem?isFullScreen=true)|[Link]()
