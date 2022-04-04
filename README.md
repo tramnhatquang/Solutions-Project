@@ -2,10 +2,11 @@
 # PROBLEM-SOLVING SOLUTIONS PROJECT
 
 ## Motives and Goals: 
-1. As a recent Math grad, I want to land in more technical interviews and 
+1. As a recent Math grad graduated on 03/17/2022, I want to land in more 
+   technical interviews and 
    get great offers, especially from the FAANG and big tech companies
 2. I plan to work on 5 LeetCode and 5 HackerRank problem per day 
-3. Doing this project not only keeps me disciplined adn committed but also 
+3. Doing this project not only keeps me disciplined and committed but also 
    hone my data structure and algorithm skills
 
 ## Descriptions:
@@ -21,6 +22,8 @@
 [String Problems Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/README-String.md)
 <br>
 [Linked List Problems Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/README-LinkedList.md)
+<br/>
+[Array, Queue, Stack Problems Directory]()
 <br/>
 
 |**Count**| **Topic** | **Question** | **Link to problem** | **Solution**  
