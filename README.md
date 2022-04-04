@@ -18,6 +18,7 @@
 **(Abbreviation) // : similar like above**
 <br/>
 [String Problems Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/README-String.md)
+[Linked List Problems Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/README-LinkedList.md)
 <br/>
 
 |**Count**| **Topic** | **Question** | **Link to problem** | **Solution**  
@@ -27,7 +28,7 @@
 |3|//|Get the Node Value|[Link](https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Get%20Node%20Value.py)
 |4| //| Merge two sorted Linked Lists|[Link](https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Merge%20two%20sorted%20linked%20lists.py)
 |5|//|Delete duplicate-value from a sorted linked list| [Link](https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem?h_r=internal-search&isFullScreen=true&h_r=next-challenge&h_v=zen)| [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Delete%20duplicate-value%20nodes%20from%20a%20sorted%20linked%20list.py)
-|6|//|Cycle Detection|[Link](https://leetcode.com/problems/linked-list-cycle/) |[Link]()
+|6|//|Cycle Detection|[Link](https://leetcode.com/problems/linked-list-cycle/) |[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Cycl%3Be%20Detection.py)
 |7|//|12|[Link]()|[Link]()
 |8|//|12|[Link]()|[Link]()
 |9|//|12|[Link]()|[Link]()
