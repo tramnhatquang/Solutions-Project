@@ -17,7 +17,7 @@
 ## Review Important Problems By Topics (HackerRank + LeetCode)
 **(Abbreviation) // : similar like ab~~ove**
 <br/>
-[String Problems Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/StringREADME.md)
+[String Problems Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/README-String.md)
 <br/>
 
 |**Count**| **Topic** | **Question** | **Link to problem** | **Solution**  
