@@ -15,7 +15,9 @@
 3. Start date: **03/22/22**, and End date is infinite
 
 ## Review Important Problems By Topics (HackerRank + LeetCode)
-**(Abbreviation) // : similar like above**
+**(Abbreviation) // : similar like ab~~ove**
+<br/>
+[String Problems Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/StringREADME.md)
 <br/>
 
 |**Count**| **Topic** | **Question** | **Link to problem** | **Solution**  
