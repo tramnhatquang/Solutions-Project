@@ -19,6 +19,8 @@ class SinglyLinkedList:
             self.tail.next = node
 
         self.tail = node
+        return self.head
+
 
     def print_singly_linked_list(self) -> None:
         curr = self.head
@@ -51,14 +53,21 @@ class SinglyLinkedList:
         curr.next = new_node
 
 
+    def reverse_linked_list(self, head):
+        if not head or not head.next:
+            return head
+
+        p = self.reverse_linked_list(head.next)
+        head.next.next = head
+        head.next = None
+        return p
+
 if __name__ == '__main__':
     singly_linked_list = SinglyLinkedList()
-    singly_linked_list.insert_node(12)
-    singly_linked_list.insert_node(23)
-    singly_linked_list.insert_node(345)
-    singly_linked_list.insert_node(56)
-    singly_linked_list.print_singly_linked_list()
-    singly_linked_list.insert_at_head(100)
-    singly_linked_list.print_singly_linked_list()
-    singly_linked_list.insert_at_tail(1000)
+    head = singly_linked_list.insert_node(12)
+    head = singly_linked_list.insert_node(23)
+    head = singly_linked_list.insert_node(345)
+    head = singly_linked_list.insert_node(56)
+    head = singly_linked_list.print_singly_linked_list()
+    tail = singly_linked_list.reverse_linked_list(head)
     singly_linked_list.print_singly_linked_list()
