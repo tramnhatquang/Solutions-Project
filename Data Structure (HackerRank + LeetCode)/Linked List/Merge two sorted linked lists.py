@@ -27,31 +27,16 @@ def mergeLists(head1, head2):
     # using the iterative way
 
     # finding the head of the merged linked list and increase the pointer
-    if head1.data < head2.data:
-        head = head1
-        head1 = head1.next
-    else:
-        head = head2
-        head2 = head2.next
-
-    current = head
-    # while both linked lists still have data
-    while head1 and head2:
-        # merge the lower value node
-        if head1.data < head2.data:
-            current.next = head1
-            head1 = head1.next
+    prev = curr = SinglyListNode()
+    while l1 and l2:
+        if l1.val <= l2.val:
+            prev.next = l1
+            l1 = l1.next
         else:
-            current.next = head2
-            head2 = head2.next
+            prev.next = l2
+            l2 = l2.next
+        prev = prev.next
 
-        # update the next pointer
-        current = current.next
-    # At here, one of the lists is NULL
-    # if one of the lists still have data
-    if head1:
-        current.next = head1
-    else:
-        current.next = head2
-
-    return head
+    # At least one of l1 and l2 can still have nodes at this point, so connect
+    # the non-null list to the end of the merged list.
+    prev.next = l1 or l2
