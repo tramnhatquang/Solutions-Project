@@ -18,5 +18,5 @@ class Solution(object):
         return curString
 
 if __name__ == '__main__':
-    for i in range(31, 76):
-        print(f'{i}|Easy||[Link]()|[Link]()')
+    for i in range(5, 54):
+        print(f'{i}|Hard||[Link]()|[Link]()')

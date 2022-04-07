@@ -1,4 +1,4 @@
-# Problems by Topic (HackerRank + LeetCode)
+# Problems by Topic (HackerRank)
 ## Tree Problems
 |**Count**|**Source**| **Difficulty** | **Question** | **Link to problem** | **Solution**  
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -22,3 +22,11 @@
 18|//|//|Array Pairs|[Link](https://www.hackerrank.com/challenges/array-pairs/problem?isFullScreen=true)|[Link]()
 19|//|//|Array and simple queries|[Link](https://www.hackerrank.com/challenges/array-and-simple-queries/problem?isFullScreen=true)|[Link]()
 20|//|//|Median Updates|[Link](https://www.hackerrank.com/challenges/median/problem?isFullScreen=true)|[Link]()
+
+## Heap Problems
+|**Count**| **Difficulty** | **Question** | **Link to problem** | **Solution**  
+|:---:|:---:|:---:|:---:|:---:|
+1|Easy|QHEAP1|[Link](https://www.hackerrank.com/challenges/qheap1/problem?isFullScreen=true)|[Link]()
+2|Easy|Jess and Cookies|[Link](https://www.hackerrank.com/challenges/jesse-and-cookies/problem?isFullScreen=true)|[Link]()
+3|Hard|Find the Running Median|[Link](https://www.hackerrank.com/challenges/find-the-running-median/problem?isFullScreen=true)|[Link]()
+4|Hard|Minimum Average Waiting Time|[Link](https://www.hackerrank.com/challenges/minimum-average-waiting-time/problem?isFullScreen=true)|[Link]()

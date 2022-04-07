@@ -1,4 +1,4 @@
-## My self-implementation for Singly-Linked List
+## My self-implementation for Singly-Linked List (HackerRank)
 class SinglyLinkedListNode:
     def __init__(self, node_data):
         self.data = node_data

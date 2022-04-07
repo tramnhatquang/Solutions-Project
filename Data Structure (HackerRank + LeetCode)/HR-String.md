@@ -1,4 +1,4 @@
-# Problems by Topic (HackerRank + LeetCode)
+# Problems by Topic (HackerRank)
 ## String Problems
 |**Count**|**Source**| **Difficulty** | **Question** | **Link to problem** | **Solution**  
 |:---:|:---:|:---:|:---:|:---:|:---:|

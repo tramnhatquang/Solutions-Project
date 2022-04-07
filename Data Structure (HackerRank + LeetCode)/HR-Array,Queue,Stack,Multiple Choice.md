@@ -1,4 +1,4 @@
-# Problems by Topic (HackerRank + LeetCode)
+# Problems by Topic (HackerRank)
 ## Array Problems
 |**Count**|**Source**| **Difficulty** | **Question** | **Link to problem** | **Solution**  
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -31,4 +31,21 @@
 3|//|//|Down to Zero II|[Link](https://www.hackerrank.com/challenges/down-to-zero-ii/problem?isFullScreen=true)|[Link]()
 4|//|Hard|Truck Tour|[Link](https://www.hackerrank.com/challenges/truck-tour/problem?isFullScreen=true)|[Link]()
 5|//|//|Querires with Fixed Length|[Link](https://www.hackerrank.com/challenges/queries-with-fixed-length/problem?isFullScreen=true)|[Link]()
+
+## Disjoint Set
+|**Count**| **Difficulty** | **Question** | **Link to problem** | **Solution**  
+|:---:|:---:|:---:|:---:|:---:|
+1|Medium|Components in a graph|[Link](https://www.hackerrank.com/challenges/components-in-graph/problem?isFullScreen=true)|[Link]()
+2|Hard|Merging Communities|[Link](https://www.hackerrank.com/challenges/merging-communities/problem?isFullScreen=true)|[Link]()
+3|Hard|Kundu and Tree|[Link](https://www.hackerrank.com/challenges/kundu-and-tree/problem?isFullScreen=true)|[Link]()
+4|Hard|Super Maximum Cost Queries|[Link](https://www.hackerrank.com/challenges/maximum-cost-queries/problem?isFullScreen=true)|[Link]()
+
+## Multiple Choices
+|**Count**| **Difficulty** | **Question** | **Link to problem** | **Solution**  
+|:---:|:---:|:---:|:---:|:---:|
+1|Hard|Data Structures MCQ 1|[Link](https://www.hackerrank.com/challenges/how-well-do-you-know-trees/problem?isFullScreen=true)|[Link]()
+2|Easy|Data Structures MCQ 2|[Link](https://www.hackerrank.com/challenges/are-you-an-expert-on-data-structures/problem?isFullScreen=true)|[Link]()
+3|Easy|Data Structures MCQ 3|[Link](https://www.hackerrank.com/challenges/are-you-an-expert-on-data-structures-1/problem?isFullScreen=true)|[Link]()
+
+
 

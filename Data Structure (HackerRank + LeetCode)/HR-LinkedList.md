@@ -1,4 +1,4 @@
-# Problems by Topic (HackerRank + LeetCode)
+# Problems by Topic (HackerRank)
 ## LinkedList Problems
 |**Count**|**Source**| **Difficulty** | **Question** | **Link to problem** | **Solution**  
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -18,3 +18,10 @@
 |14|//|//|Reverse a doubly linked list|[Link](https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Reverse%20a%20doubly%20linked%20list.py)
 15|LeetCode|Easy|Convert Binary Number in a Linked List to Integer|[Link]()|[Link]()
 16|//|Medium|Cycle Detection|[Link](https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Cycl%3Be%20Detection.py)
+
+
+## Trie Problems
+|**Count**|**Difficulty** | **Question** | **Link to problem** | **Solution**  
+|:---:|:---:|:---:|:---:|:---:|
+1|Medium|Contacts|[Link](https://www.hackerrank.com/challenges/contacts/problem?isFullScreen=true)|[Link]()
+2|Hard|No Prefix Set|[Link](https://www.hackerrank.com/challenges/no-prefix-set/problem?isFullScreen=true)|[Link]()
