@@ -43,9 +43,9 @@
 ## Multiple Choices
 |**Count**| **Difficulty** | **Question** | **Link to problem** | **Solution**  
 |:---:|:---:|:---:|:---:|:---:|
-1|Hard|Data Structures MCQ 1|[Link](https://www.hackerrank.com/challenges/how-well-do-you-know-trees/problem?isFullScreen=true)|[Link]()
-2|Easy|Data Structures MCQ 2|[Link](https://www.hackerrank.com/challenges/are-you-an-expert-on-data-structures/problem?isFullScreen=true)|[Link]()
-3|Easy|Data Structures MCQ 3|[Link](https://www.hackerrank.com/challenges/are-you-an-expert-on-data-structures-1/problem?isFullScreen=true)|[Link]()
+1|Hard|Data Structures MCQ 1|[Link](https://www.hackerrank.com/challenges/how-well-do-you-know-trees/problem?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Multiple%20Choice%20Answers.md)
+2|Easy|Data Structures MCQ 2|[Link](https://www.hackerrank.com/challenges/are-you-an-expert-on-data-structures/problem?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Multiple%20Choice%20Answers.md)
+3|Easy|Data Structures MCQ 3|[Link](https://www.hackerrank.com/challenges/are-you-an-expert-on-data-structures-1/problem?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Multiple%20Choice%20Answers.md)
 
 
 

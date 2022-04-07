@@ -19,11 +19,20 @@
 **(Abbreviation) // : similar like above**
 <br/>
 
-[String Problems Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/README-String.md)
-<br>
-[Linked List Problems Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/README-LinkedList.md)
+### Some other helpful directories:
+[Advanced Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/HR-Advanced.md)
 <br/>
-[Array, Queue, Stack Problems Directory]()
+[String Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/HR-String.md)
+<br/>
+[Linked List Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/HR-LinkedList.md)
+<br/>
+[Array, Queue, Stack, Multiple Choices Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/HR-Array%2CQueue%2CStack%2CMultiple%20Choice.md)
+<br/>
+[Trees, Heap Directory](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/HR-Trees%2C%20Heap.md)
+<br/>
+[LeetCode Blind 75 Questions](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/LeetCode-Blind%2075%20Questions.md)
+<br/>
+[HackerRank 30 Days of Code](https://github.com/tramnhatquang/Solutions-Project/tree/master/30%20Days%20of%20Code%20(HackerRank))
 <br/>
 
 |**Count**| **Topic** | **Question** | **Link to problem** | **Solution**  
