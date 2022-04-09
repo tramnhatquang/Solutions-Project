@@ -2,14 +2,14 @@
 ## Tree Problems
 |**Count**|**Source**| **Difficulty** | **Question** | **Link to problem** | **Solution**  
 |:---:|:---:|:---:|:---:|:---:|:---:|
-1|HackerRank|Easy|Tree: Preorder Traversal|[Link](https://www.hackerrank.com/challenges/tree-preorder-traversal/problem?isFullScreen=true)|[Link]()
-2|//|//|Tree: Post-order Traversal|[Link](https://www.hackerrank.com/challenges/tree-postorder-traversal/problem?isFullScreen=true)|[Link]()
-3|//|//|Tree: In-order Traversal|[Link](https://www.hackerrank.com/challenges/tree-inorder-traversal/problem?isFullScreen=true)|[Link]()
+1|HackerRank|Easy|Tree: Preorder Traversal|[Link](https://www.hackerrank.com/challenges/tree-preorder-traversal/problem?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Trees%20(HackerRank)/Preorder%20Traversal.py)
+2|//|//|Tree: Post-order Traversal|[Link](https://www.hackerrank.com/challenges/tree-postorder-traversal/problem?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Trees%20(HackerRank)/Postorder%20Traversal.py)
+3|//|//|Tree: In-order Traversal|[Link](https://www.hackerrank.com/challenges/tree-inorder-traversal/problem?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Trees%20(HackerRank)/InOrder%20Traversal.py)
 4|//|//|Tree: Top View|[Link](https://www.hackerrank.com/challenges/tree-top-view/problem?isFullScreen=true)|[Link]()
 5|//|//|Tree: Level Order Traversal|[Link](https://www.hackerrank.com/challenges/tree-level-order-traversal/problem?isFullScreen=true)|[Link]()
-6|//|//|BST: Insertion|[Link](https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem?isFullScreen=true)|[Link]()
+6|//|//|BST: Insertion|[Link](https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Trees%20(HackerRank)/Binary%20Search%20Tree%20%20Insertion.py)
 7|//|//|BST: Lowest Common Ancestor|[Link](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem?isFullScreen=true)|[Link]()
-8|//|//|Tree: Height of a Binary Tree|[Link](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem?isFullScreen=true)|[Link]()
+8|//|//|Tree: Height of a Binary Tree|[Link](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Trees%20(HackerRank)/Height%20of%20a%20Binary%20Tree.py)
 9|//|Medium|Tree: Huffman Decoding|[Link](https://www.hackerrank.com/challenges/tree-huffman-decoding/problem?isFullScreen=true)|[Link]()
 10|//|//|Swap Nodes (Algo)|[Link](https://www.hackerrank.com/challenges/swap-nodes-algo/problem?isFullScreen=true)|[Link]()
 11|//|//|Is this a BST?|[Link](https://www.hackerrank.com/challenges/is-binary-search-tree/problem?isFullScreen=true)|[Link]()
