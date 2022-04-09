@@ -1,5 +1,5 @@
 
-# PROBLEM-SOLVING PROJECT (Updated: 05/04/2022)
+# PROBLEM-SOLVING PROJECT (Last Updated: 05/07/2022)
 
 ## Motives and Goals: 
 1. As a recent Math grad graduated on 03/17/2022, I want to land in more 
@@ -37,14 +37,14 @@
 
 |**Count**| **Topic** | **Question** | **Link to problem** | **Solution**  
 |:---:|:---:|:---:|:---:|:---:|
-|1|Linked List| Reverse Linked List | [Link](https://www.hackerrank.com/challenges/reverse-a-linked-list/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Reverse%20a%20linked%20list.py)
-|2|//| Compare two linked list  | [Link](https://www.hackerrank.com/challenges/compare-two-linked-lists?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Compare%20two%20linked%20lists.py)
-|3|//|Get the Node Value|[Link](https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Get%20Node%20Value.py)
-|4| //| Merge two sorted Linked Lists|[Link](https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Merge%20two%20sorted%20linked%20lists.py)
-|5|//|Delete duplicate-value from a sorted linked list| [Link](https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/problem?h_r=internal-search&isFullScreen=true&h_r=next-challenge&h_v=zen)| [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Delete%20duplicate-value%20nodes%20from%20a%20sorted%20linked%20list.py)
-|6|//|Cycle Detection|[Link](https://leetcode.com/problems/linked-list-cycle/) |[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Cycl%3Be%20Detection.py)
-|7|//|Reverse a doubly linked list|[Link](https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Reverse%20a%20doubly%20linked%20list.py)
-|8|//|Find Merge Point of Two Lists|[Link](https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List/Find%20Merge%20Point%20of%20Two%20lists.py)
+|1|Linked List| Reverse Linked List | [Link](https://www.hackerrank.com/challenges/reverse-a-linked-list/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List%20(HackerRank)/Reverse%20a%20linked%20list.py)
+|2|//| Compare two linked list  | [Link](https://www.hackerrank.com/challenges/compare-two-linked-lists?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List%20(HackerRank)/Compare%20two%20linked%20lists.py)
+|3|//|Get the Node Value|[Link](https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List%20(HackerRank)/Get%20Node%20Value.py)
+|4| //| Merge two sorted Linked Lists|[Link](https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists?isFullScreen=true) | [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List%20(HackerRank)/Merge%20two%20sorted%20linked%20lists.py)
+|5|//|Delete duplicate-value from a sorted linked list|[Link](https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list?isFullScreen=true)| [Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List%20(HackerRank)/Delete%20duplicate-value%20nodes%20from%20a%20sorted%20linked%20list.py)
+|6|//|Cycle Detection|[Link](https://leetcode.com/problems/linked-list-cycle/) |[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List%20(HackerRank)/Cycle%20Detection.py)
+|7|//|Reverse a doubly linked list|[Link](https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List%20(HackerRank)/Reverse%20a%20doubly%20linked%20list.py)
+|8|//|Find Merge Point of Two Lists|[Link](https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/problem?isFullScreen=true)|[Link](https://github.com/tramnhatquang/Solutions-Project/blob/master/Data%20Structure%20(HackerRank%20%2B%20LeetCode)/Linked%20List%20(HackerRank)/Find%20Merge%20Point%20of%20Two%20lists.py)
 |9|//|Place_Holder|[Link]()|[Link]()
 |10|//|Place_Holder|[Link]()|[Link]()
 |11|//|Place_Holder|[Link]()|[Link]()
