@@ -214,6 +214,18 @@ def iterative_post_order_traversal(root: BSTNode) -> List[int]:
                 stack.append(node.right)
     return res[::-1]
 
+    ## Another approach:
+    # stack, res = [root], []
+    # while stack:
+    #     node = stack.pop()
+    #     if node:
+    #         res.insert(0, node.val)
+    #         if node.left:
+    #             stack.append(node.left)
+    #         if node.right:
+    #             stack.append(node.right)
+    # return res
+
 def level_order_traversal(root: BSTNode) -> List[List[int]]:
     # The recursive way
 
@@ -255,29 +267,10 @@ def build_a_tree(lst: List[int]) -> BSTNode:
         root = recursive_insert(root, lst[i])
     return root
 
-class BinarySeachTree:
-    def __init__(self):
-        self.root = None
+def maxDepth(root: BSTNode) -> int:
+    level, depth = [root] if root else None, 0
+    while level:
+        depth += 1
+        level = [n for node in level for n in (node.left, node.right) if n]
+    return depth
 
-    def insert(self, val):
-
-        # Insert iteratively
-        if not self.root:
-            self.root = BSTNode(val)
-            return self.root
-
-        curr = self.root
-        while True:
-            if curr.val <= val:
-                if not curr.right:
-                    curr.right = BSTNode(val)
-                    break
-                else:
-                    curr = curr.right
-            else:
-                if not curr.left:
-                    curr.left = BSTNode(val)
-                    break
-                else:
-                    curr = curr.left
-        return self.root
