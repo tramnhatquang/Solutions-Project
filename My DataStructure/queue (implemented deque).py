@@ -1,17 +1,23 @@
-class Queue:
+from collections import deque
+"""
+This Queue Class uses an array to implement
+Time complexity for its operations
+
+* enqueue() takes O(1)
+* dequeue() takes O(1)
+"""
+class Queue_Deque:
 
     def __init__(self):
-        self.items = []
+        self.items = deque()
 
     def enqueue(self, item):
         """Takes in an item and inserts that item into the 0th index of the list
         that is representing the Queue.
 
-        The runtime is O(n), or linear time, because inserting into the 0th
-        index of a list forces all the other items in the list to move one index
-        to the right.
+        The runtime is O(1), or constant time
         """
-        self.items.insert(0, item)
+        self.items.append(item)
 
     def dequeue(self):
         """Returns and removes the front-most item of the Queue, which is
@@ -21,7 +27,7 @@ class Queue:
         list happens in constant time.
         """
         if self.items:
-            return self.items.pop()
+            return self.items.popleft()
         return None
 
     def peek(self):
@@ -50,3 +56,4 @@ class Queue:
         Runs in constant time, because it's only checking for equality.
         """
         return self.items == []
+

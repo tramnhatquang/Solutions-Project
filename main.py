@@ -1,3 +1,4 @@
 if __name__ == '__main__':
-    for i in range(0, 30):
-        print(f'{i+1}|Day {i}|[Link]()|[Link]()')
+	a = [2, 5, 3, 1, 6, 4, 3]
+	a.sort()
+	print(a)
