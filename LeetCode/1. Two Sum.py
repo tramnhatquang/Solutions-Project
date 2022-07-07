@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # Time: O(n) where n is the length of the list

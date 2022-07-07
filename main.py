@@ -1,4 +1,14 @@
+
 if __name__ == '__main__':
-	a = [2, 5, 3, 1, 6, 4, 3]
-	a.sort()
-	print(a)
+	a = [1, 2, 4]
+	b = a
+	a[1] = 10
+	print(b)
+
+	c = a[:]
+	print(c)
+
+	c[1] = 100
+	print(a, b)
+
+	a[:] = c
