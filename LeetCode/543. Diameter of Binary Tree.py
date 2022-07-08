@@ -33,7 +33,7 @@ class Solution:
 
 if __name__ == '__main__':
 	s = Solution()
-	root =  TreeNode(1)
+	root = TreeNode(1)
 	root.left = TreeNode(2)
 	root.left.left = TreeNode(4)
 	root.left.right = TreeNode(5)
@@ -41,10 +41,9 @@ if __name__ == '__main__':
 
 	print(s.diameterOfBinaryTree(root))
 
-
 if __name__ == '__main__':
 	s = Solution()
-	root =  TreeNode(1)
+	root = TreeNode(1)
 	root.left = TreeNode(2)
 	root.left.left = TreeNode(4)
 	root.left.right = TreeNode(5)
