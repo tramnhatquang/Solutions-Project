@@ -10,9 +10,8 @@ class TreeNode:
 
 
 class Solution:
-	def preorder(self, root: TreeNode, target: int, buf: List[int], results:
-	List[List[int]]) -> None:
-		if not root:
+	def preorder(self, root, target, buf, results):
+		if root is None:
 			return
 
 		target -= root.val
@@ -28,9 +27,11 @@ class Solution:
 
 	# time complexity: O(nlogh), n is number of nodes, h is the height of the tree
 	# space complexity: O(nlogh)
+	# ALGO: We need to keep track of the running sum and current path so far for every node. After deducting the current's node value from the running sum, if the remaining of running sum equals to zero and current node is a leaf node, we append the current path so far into the result list. Otherwise, we continue explore further the left and right subtrees.
+	# If we reach the end of a branch and has not figured out a correct path, we pop out the last element from the path.
 	def pathSum(self, root: Optional[TreeNode], targetSum: int) -> List[
 		List[int]]:
-		if not root:
+		if root is None:
 			return []
 
 		results = []

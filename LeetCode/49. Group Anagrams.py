@@ -1,27 +1,28 @@
-from collections import defaultdict
+import collections
+from typing import *
 
 
 class Solution:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        # Time: O(N KlogK) where N is the length of strs and K is the maximum length of a string in strs
-        # Space: O(NK) the total information content stored in hash_table
+	def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+		# Time: O(N KlogK) where N is the length of strs and K is the maximum length of a string in strs
+		# Space: O(NK) the total information content stored in hash_table
 
-        hash_table = defaultdict(list)
+		# hash_table = defaultdict(list)
+		#
+		# for string in strs:
+		#     hash_table[tuple(sorted(string))].append(string)
+		#
+		# return hash_table.values()
 
-        for string in strs:
-            hash_table[tuple(sorted(string))].append(string)
+		# Counting the occurences of each character in a string and use them as a key in a dictionary
+		# Time Complexity: O(N*K) where N is the length of the strs
+		# K is the maximum lenth of a string in strs
+		# Space: O(N*K), total information content stored in ans
+		ans = collections.defaultdict(list)
+		for string in strs:
+			count = [0] * 26
+			for char in string:
+				count[ord(char) - ord('a')] += 1
+			ans[tuple(count)].append(string)
 
-        return hash_table.values()
-
-        # Counting the occurences of each character in a string and use them as a key in a dictionary
-        # Time Complexity: O(N*K) where N is the length of the strs
-        # K is the maximum lenth of a string in strs
-        # Space: O(N*K), total information content stored in ans
-        ans = collections.defaultdict(list)
-        for string in strs:
-            count = [0] * 26
-            for char in string:
-                count[ord(char) - ord('a')] += 1
-            ans[tuple(count)].append(string)
-
-        return ans.values()
+		return list(ans.values())
