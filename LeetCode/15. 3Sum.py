@@ -1,3 +1,4 @@
+from typing import *
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         # Time: O(n^2) because twoSum takes O(n) and we call it n times where n is the length of nums. Sorting the array takes O(n log n), so overall complexity is O(n^2)
