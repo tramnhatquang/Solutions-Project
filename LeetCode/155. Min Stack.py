@@ -1,24 +1,29 @@
 class MinStack:
+	# The observation is that we have to store the min value of each node in the stack
 
 	def __init__(self):
-		self.arr = []
-		self.min = []
+		self.size = 0
+		self.stack = []  # (key, min_val)
 
 	def push(self, val: int) -> None:
-		self.arr.append(val)
-		min_val = min(val, self.min[-1] if self.min else val)
-		self.min.append(min_val)
+		# check if the stack is empty. If it is, the min value is the first value, else , the min value of each key is the min of the current key including prev keys
+		if not self.stack:
+			self.stack.append((val, val))
+		else:
+			self.stack.append((val, min(self.stack[-1][1], val)))
 
 	def pop(self) -> None:
-		if self.arr and self.min:
-			self.arr.pop()
-			self.min.pop()
+		self.stack.pop()
 
 	def top(self) -> int:
-		return self.arr[-1]
+		if self.stack:
+			return self.stack[-1][0]
+		return -1  # if the stack is empty
 
 	def getMin(self) -> int:
-		return self.min[-1]
+		if self.stack:
+			return self.stack[-1][1]
+		return -1  # if the stack is empty
 
 # Your MinStack object will be instantiated and called as such:
 # obj = MinStack()
