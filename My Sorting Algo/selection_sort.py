@@ -6,9 +6,9 @@ from typing import List
 # Source: AlgoMonster
 def selection_sort(unsorted_list: List[int]) -> List[int]:
 	n = len(unsorted_list)
-	for i in range(n):
+	for i in range(n - 1):
 		min_index = i
-		for j in range(i, n):
+		for j in range(i + 1, n):
 
 			# Finding the index of the smallest element in the unsorted
 			# partition
