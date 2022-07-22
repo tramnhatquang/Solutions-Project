@@ -22,11 +22,4 @@ def inorder(root: TreeNode) -> List[int]:
 
 
 if __name__ == '__main__':
-	root = TreeNode(5)
-	root.left = TreeNode(4)
-	root.left.left = TreeNode(2)
-	root.right = TreeNode(10)
-	root.right.left = TreeNode(8)
-
-	res = inorder(root)
-	print(res)
+	print('22131'* 3)
