@@ -36,6 +36,17 @@ class Solution:
 			first.next, first = second, first.next
 			second.next, second = first, second.next
 
+	# while first and second:
+	# 	temp = first.next
+	# 	first.next = second
+	# 	first = temp
+	#
+	# 	temp = second.next
+	# 	second.next = first
+	# 	second = temp
+	#
+	# if not first:
+	# 	first.next = None
 	# time: O(N), N is the length of LL
 	# space: O(1)
 
