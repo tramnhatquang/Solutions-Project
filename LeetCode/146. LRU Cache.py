@@ -1,126 +1,112 @@
-from collections import OrderedDict
+# class LRUCache:
+# approach 1: OrderedDict
+# use the OrderedDict where the order of items in the dict show how recently the items were used. The least recently used item is at the beginning while in the end we have the most recently used
+
+# initializing the capacity
+#     def __init__(self, capacity: int):
+#         self.cache = OrderedDict()
+#         self.capacity = capacity
+
+#     def get(self, key: int) -> int:
+#         """
+#         we return the value of the key
+#         that is queried in O(1) and return -1 if we
+#         don't find the key in out dict / cache.
+#         And also move the key to the end
+#         to show that it was recently used.
+#         """
+#         if key not in self.cache:
+#             return -1
+#         else:
+#             # move the item to the last of the dict
+#             self.cache.move_to_end(key)
+#             return self.cache[key]
+
+#     def put(self, key: int, value: int) -> None:
+#         """
+#         first, we add / update the key by conventional methods.
+#         And also move the key to the end to show that it was recently used.
+#         But here we will also check whether the length of our
+#         ordered dictionary has exceeded our capacity,
+#         If so we remove the first key (least recently used)
+#         """
+#         self.cache[key] = value
+#         self.cache.move_to_end(key)
+#         if len(self.cache) > self.capacity:
+#             self.cache.popitem(last = False)
+
+# time: O(1) for get() and put() since all operations with ordered dictionary get/in/set/move_to_end/pop_item are done in a constant time
+# space: O(capacity) since the cache contains at most capacity elements
+
+
+# approach 2: Self-implementation of the LRU cache using hash map + doubly linked list
+
+# implementation of the Doubly Linked List Node
+class Node:
+	def __init__(self, key: int, val: int):
+		self.val = val
+		self.key = key
+
+		# initialize the next and previous pointer
+		self.prev = self.next = None
 
 
 class LRUCache:
-    # Approach 1: Ordered Dictionary
-    # Using the OrderedDict data structure from collections module
-    # Time: O(1) for both put and get
-    # Space: O(capacity)
-    def __init__(self, capacity: int):
-        self.cache = OrderedDict()
-        self.capacity = capacity
-        self.size = 0
+	# Imagine the LRUCache is like a Doubly Linked List where the LRU items are in the beginning while the MRU (most recently used) items are at the back
 
-    def get(self, key: int) -> int:
-        if key not in self.cache:
-            return -1
+	# initializing the capacity, the left most and right most
+	def __init__(self, capacity: int):
+		self.capacity = capacity
+		self.cache = {}  # hash map maps the key to its node
 
-        # Move the value to the end
-        self.cache.move_to_end(key)
+		# intialize the left and right most node
+		self.left, self.right = Node(0, 0), Node(0, 0)
+		self.left.next = self.right
+		self.right.prev = self.left
 
-        # Return the key's value
-        return self.cache.get(key)
+	def insert(self, node):
+		"""
+        Insert a node to the back of the Doubly Linked List
+        """
+		prev, nxt = self.right.prev, self.right
+		prev.next = nxt.prev = node
+		node.next, node.prev = self.right, prev
 
-    def put(self, key: int, value: int) -> None:
-        if key in self.cache:
-            self.cache.move_to_end(key)
-        else:
-            self.size += 1
-        self.cache[key] = value
-        if self.size > self.capacity:
-            self.cache.popitem(last=False)
-            self.size -= 1
+	def remove(self, node):
+		"""
+        Remove an existing node from the Doubly Linked List
+        """
+		prev, nxt = node.prev, node.next
+		prev.next = nxt
+		nxt.prev = prev
 
-    ## Approach 2: Hashmap + Doubly Linked List
-    # One advantage of double linked list is that the node can remove itself without other reference. In addition, it takes constant time to add and remove nodes from the head or tail.
-    #
-    # One particularity about the double linked list implemented here is that there are pseudo head and pseudo tail to mark the boundary, so that we don't need to check the null node during the update.
-    class DoublyLinkedListNode:
-        def __init__(self):
-            self.key = 0
-            self.value = 0
-            self.next = None
-            self.prev = None
+	def get(self, key: int) -> int:
+		if key in self.cache:
+			# remove the node first
+			self.remove(self.cache[key])
+			# move the node to the back of the LL
+			self.insert(self.cache[key])
+			return self.cache[key].val
+		return -1  # if not found
 
-    class LRUCache:
+	def put(self, key: int, val: int) -> None:
+		# remove the node associated with the key from the doubly linked list
+		if key in self.cache:
+			self.remove(self.cache[key])
 
-        def _add_node(self, node):
-            """
-            Always add node to the head
-            """
-            node.prev = self.head
-            node.next = self.head.next
+		# update the value of key
+		self.cache[key] = Node(key, val)
 
-            self.head.next.prev = node
-            self.head.next = node
+		# insert the node to the back of the LL
+		self.insert(self.cache[key])
 
-        def _remove_node(self, node):
-            """
-            Remove an existing node from the linked list
-            """
-            prev = node.prev
-            nxt = node.next
+		if len(self.cache) > self.capacity:
+			# remove the LRU item from the beginning of the LL
+			lru = self.left.next
+			self.remove(lru)
+			del self.cache[lru.key]
 
-            prev.next = nxt
-            nxt.prev = prev
-
-        def _move_to_head(self, node):
-            """
-            Move certain node in between to the head
-            """
-            self._remove_node(node)
-            self._add_node(node)
-
-        def _pop_tail(self):
-            """
-            Pop the current tail
-            """
-            res = self.tail.prev
-            self._remove_node(res)
-            return res
-
-        def __init__(self, capacity: int):
-            self.head = DoublyLinkedListNode()
-            self.tail = DoublyLinkedListNode()
-            self.capacity = capacity
-            self.cache = {}
-            self.size = 0
-
-            # Link the head and tail
-            self.head.next = self.tail
-            self.tail.prev = self.head
-
-        def get(self, key: int) -> int:
-            node = self.cache.get(key, None)
-            if not node:
-                return -1
-
-            self._move_to_head(node)
-            return node.value
-
-        def put(self, key: int, value: int) -> None:
-            node = self.cache.get(key)
-            if not node:
-                new_node = DoublyLinkedListNode()
-                new_node.value = value
-                new_node.key = key
-
-                self.cache[key] = new_node
-                self._add_node(new_node)
-
-                self.size += 1
-                if self.size > self.capacity:
-                    # pop the tail
-                    tail = self._pop_tail()
-                    del self.cache[tail.key]
-                    self.size -= 1
-
-
-            else:  # node is already existed in the linked list
-                node.value = value
-                self._move_to_head(node)
-
-    # Your LRUCache object will be instantiated and called as such:
-    # obj = LRUCache(capacity)
-    # param_1 = obj.get(key)
-    # obj.put(key,value)
+# Your LRUCache object will be instantiated and called as such:
+# obj = LRUCache(capacity)
+# param_1 = obj.get(key)
+# obj.put(key,value)
