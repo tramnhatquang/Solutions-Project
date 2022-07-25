@@ -1,33 +1,38 @@
+from collections import Counter
+
+
 class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
-        # Time: O(n)
-        # Space: O(1) because the table's size stays constant no matter how large n is
-        if len(s) != len(t):
-            return False
+	def isAnagram(self, s: str, t: str) -> bool:
+		# approach 1: Sorting
+		# 1. Sorting both strings. After sorting, characters of each string will be placed lexicographically. Two anagram words are the same after sorting. Check if the sorted strings are the same. If they are, return True. Otherwise, returns False
+		#         if len(s) != len(t):
+		#             return False
 
-        dic1, dic2 = {}, {}
-        for i in range(len(s)):
-            dic1[s[i]] = 1 + dic1.get(s[i], 0)
-            dic2[t[i]] = 1 + dic2.get(t[i], 0)
+		#         lst_s, lst_t= list(s), list(t)
+		#         lst_s.sort()
+		#         lst_t.sort()
+		#         return lst_t == lst_s
 
-        return dic1 == dic2
+		# time: O(n log n), n = s.length() = t.length()
+		# space: O(n) based on the sort you choose
 
-        # TIme: O(n) where n is the length of string s
-        # Space: O(1) because the table's size is constant no matter how large n is
-        if len(s) != len(t):
-            return False
+		# approach 2: Hash Map
+		# 1. Use a hash map to count the occurences of each chracter in s
+		# 2. Loop over each character in t and check each chacracter in t if
+		#   - If one character is not in the hash map, return False
+		#   - If the character is in the hashmap, decrement its occurence. If the occurence < 0, that means we have more char's occurence in t than in s so we return False. Then, we keep doing until we reach the end of t. If nothing returns during the traversal, return tRUE
 
-        dic = {}
+		if len(s) != len(t):
+			return False
 
-        for char in s:
-            dic[char] = 1 + dic.get(char, 0)
-
-        for char in t:
-            if char not in dic:
-                return False
-            dic[char] -= 1
-
-        for value in dic.values():
-            if value != 0:
-                return False
-        return True
+		# time: O(n), n is the length of s (s and t have the same length)
+		# space: O(1), since we only contain up to 26 lowercase letters
+		counter = Counter(s)
+		for char in t:
+			if char not in counter:
+				return False
+			else:
+				counter[char] -= 1
+				if counter.get(char) < 0:
+					return False
+		return True
