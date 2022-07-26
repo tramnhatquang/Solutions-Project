@@ -26,11 +26,13 @@ class Solution:
 			if right_char in char_index_map:
 				# this is tricky; in the current window, we will not have any 'right_char' after its previous index
 				# and if 'window_start' is already ahead of the last index of 'right_char', we'll keep 'window_start'
-				# window_start = max(window_start, char_index_map[right_char] + 1)
-				window_start = char_index_map[right_char] + 1
+				window_start = max(window_start, char_index_map[right_char] + 1)
+			# window_start = char_index_map[right_char] + 1
 
 			# insert the 'right_char' into the map
 			char_index_map[right_char] = window_end
 			# remember the maximum length so far
 			max_length = max(max_length, window_end - window_start + 1)
 		return max_length
+# time: O(n), space: O(m), n is the length of the input, m is the
+# size of unique characters
